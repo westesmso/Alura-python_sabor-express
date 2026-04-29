@@ -1,11 +1,13 @@
-# print('Sabor Express')
+# aula 1 - Manipulando strings
 
-# print('1. Cadastrar Restaurante')
-# print('2. Listar Restaurantes')
-# print('3. Ativar Restaurante')
-# print('4. Sair')
+print('Sabor Express')
 
-# op = input('Escolha uma opção: ')
+print('1. Cadastrar Restaurante')
+print('2. Listar Restaurantes')
+print('3. Ativar Restaurante')
+print('4. Sair')
 
-# print(f'Opção escolhida: {op}')
+op = input('Escolha uma opção: ')
+
+print(f'Opção escolhida: {op}')
 
