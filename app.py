@@ -1,13 +1,10 @@
-# aula 1 - Manipulando strings
+print('Python na Escola de Programação Alura')
 
-print('Sabor Express')
+nome = input('Digite seu nome: ')
+idade = input('Digite sua idade: ')
+print(f'Seu nome é: {nome}')
+print(f'Sua idade é: {idade}')
 
-print('1. Cadastrar Restaurante')
-print('2. Listar Restaurantes')
-print('3. Ativar Restaurante')
-print('4. Sair')
+print('A','L','U','R','A',sep='\n')
 
-op = input('Escolha uma opção: ')
-
-print(f'Opção escolhida: {op}')
-
+print(f'O valor de pi arredondado é: {round(3.14159, 2)}')
