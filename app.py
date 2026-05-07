@@ -19,8 +19,6 @@ if response.status_code == 200:
             'price': item['price'],
             'description': item['description']
         })
-
-
     
 else:   print(f"Erro ao acessar a URL: {response.status_code}")
 
